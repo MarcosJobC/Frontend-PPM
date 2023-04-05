@@ -120,13 +120,15 @@ nav ul ul li {
 /* Fine menu a tendina */
 /* Fine gestione header pagina*/
 
+#tutto{
+    max-width: 1020px;
+    margin: 0 auto;
+}
 
 /* Stile del contenitore principale */
 .container {
     display: flex;
     justify-content: space-between;
-    margin-left: 20%;
-    margin-right: 20%;
     margin-top: 1%;
 }
 /* Colonna a sinistra */
