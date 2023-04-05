@@ -17,6 +17,32 @@ header div ul {
 header div ul li{
     padding: 3px;
 }
+#lenteingrandimento{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 450px;
+}
+#newsletter{
+    width: 2%;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+}
+#logo {
+    width: 20%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+#pagesix {
+    width: 11%;
+    position: absolute;
+    top: 20px;
+    right: 350px;
+}
 #data {
     background-color: black;
     color: white;
@@ -25,92 +51,11 @@ header div ul li{
     text-align: center;
     justify-content: center;
 }
-#logo {
-    width: 30%;
-    display: flex;
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center;
-}
-#pagesix {
-    width: 15%;
-    position: absolute;
-    top: 20px;
-    right: 100px;
-}
-
-/* Inizio menu a tendina */
-nav ul,
-nav ul li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-nav ul li {
-    display: inline-block;
-    position: relative;
-}
-
-nav ul li:hover > ul {
-    display: block;
-}
-
-nav ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #fff;
-    border: 5px solid white;
-    padding: 0;
-}
-
-nav ul ul li {
-    display: block;
-}
-
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: white;
-    border: 5px solid gray;
-    padding: 30px;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.dropdown > a {
-    padding-left: 30px;
-    background: url('photos/tendina.png') left center no-repeat;
-    border: 3px solid white;
-    text-decoration: none;
-    color: white;
-}
-
-.dropdown-menu a {
-    display: block;
-    text-decoration: none;
-    color: grey;
-    background-color: white;
-}
-
-#menu a {
-    text-decoration: none;
-    color: white;
-}
-
-#menu ul li ul li a {
-    color: grey;
-}
-/* Fine menu a tendina */
 /* Fine gestione header pagina*/
 
+/*Dimensioni totali pagina e spazi laterali*/
 #tutto{
-    max-width: 1020px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -133,6 +78,13 @@ nav ul ul li {
     border: 5px solid gray;
     margin-bottom: 10%;
     font-weight: bold;
+}
+/* Pubblicità colonna di destra */
+#pubblicita_colonna_destra{
+    margin-left: 27px;
+    height: 581px;
+    width: 295px;
+    border: 1px solid black;
 }
 
 /* Trending Now */
@@ -205,7 +157,6 @@ main div section div{
     padding-left: 20px;
     border-right: 1px solid lightgray;
     border-left: 1px solid lightgray;
-    margin-right: 15px;
 }
 
 .article_small:last-child {
@@ -222,7 +173,7 @@ body{
 }
 
 /* Mediaquery per rimpicciolimento testo e altro */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
     #logo {
         margin: 0 auto;
     }
