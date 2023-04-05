@@ -18,17 +18,11 @@ header div ul li{
     padding: 3px;
 }
 #lenteingrandimento{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 30px;
-    left: 450px;
+    width: 1.5%;
+    height: 1.5%;
 }
 #newsletter{
     width: 2%;
-    position: absolute;
-    top: 30px;
-    left: 500px;
 }
 #logo {
     width: 20%;
