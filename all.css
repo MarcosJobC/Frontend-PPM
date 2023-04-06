@@ -4,27 +4,21 @@
 }
 
 /* Inizio gestione header pagina*/
-header {
+header{
     width: 100%;
     background-color: #c40801;
     color: #fff;
 }
 
-header div ul {
-    list-style: none;
-    display: flex;
-}
-
-header div ul li {
-    padding: 3px;
-}
 /*Non ancora inserita*/
 #lenteingrandimento {
     width: 1.5%;
     position: absolute;
     top: 30px;
     left: 400px;
+    cursor: pointer;
 }
+
 /*Non ancora inserita*/
 #newsletter {
     width: 2%;
@@ -36,9 +30,9 @@ header div ul li {
 #logo {
     width: 20%;
     display: flex;
-    margin: 0 auto;
     text-align: center;
     justify-content: center;
+    margin: 0 auto;
     padding: 20px;
 }
 /*Logo pagesix*/
