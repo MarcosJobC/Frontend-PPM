@@ -66,6 +66,9 @@ main div section div {
     border-right: 1px solid lightgray;
     border-left: 1px solid lightgray;
 }
+.fotopiccolacontainerorizzontale {
+    width: 100%;
+}
 
 .article_small:last-child {
     margin-right: 0px;
