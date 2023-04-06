@@ -74,8 +74,9 @@ main div section article {
     transition: transform 0.3s ease-in-out;
 }
 
-
-
 .social-icons img:hover {
     transform: scale(1.2);
+}
+.right-column1 {
+    margin-bottom: 10%;
 }
