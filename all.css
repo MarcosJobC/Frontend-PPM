@@ -18,16 +18,16 @@ header div ul {
 header div ul li {
     padding: 3px;
 }
-
+/*Non ancora inserita*/
 #lenteingrandimento {
     width: 1.5%;
     height: 1.5%;
 }
-
+/*Non ancora inserita*/
 #newsletter {
     width: 2%;
 }
-
+/*Logo new york post*/
 #logo {
     width: 20%;
     display: flex;
@@ -35,14 +35,14 @@ header div ul li {
     text-align: center;
     justify-content: center;
 }
-
+/*Logo pagesix*/
 #pagesix {
     width: 11%;
     position: absolute;
     top: 20px;
     right: 350px;
 }
-
+/*Sezione con data odierna*/
 #data {
     background-color: black;
     color: white;
@@ -53,6 +53,7 @@ header div ul li {
 }
 
 /* Fine gestione header pagina*/
+
 /*Dimensioni totali pagina e spazi laterali*/
 #tutto {
     max-width: 1280px;
@@ -70,9 +71,9 @@ header div ul li {
 body{
     width: 100%;
 }
-.pubblicita1{
+/*Pubblicià orizzontali*/
+.pubblicitaorizzontali{
     width: 100%;
-
 }
 
 /* Mediaquery per rimpicciolimento testo e altro */

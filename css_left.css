@@ -59,7 +59,7 @@ main div section div {
     border-top: 1px solid lightgray;
 }
 
-/* Singoli articoli piccoli sotto articolo grande */
+/* Sezione singoli articoli piccoli sotto articolo grande */
 .article_small {
     padding-right: 5px;
     padding-left: 20px;
@@ -70,7 +70,7 @@ main div section div {
 .article_small:last-child {
     margin-right: 0px;
 }
-
+/*Scritta sotto foto in sezione a 3 orizzontale*/
 .caption {
     font-size: 20px;
     text-align: left;
@@ -96,7 +96,7 @@ body {
     border-bottom: 1px solid lightgray;
 }
 
-/* Stile del contenitore 1 */
+/* Stile del contenitore 1 (sezione a 3 grande) */
 .container1 {
     display: flex;
     margin-top: 1%;
@@ -137,21 +137,21 @@ body {
     margin-top:10px;
     justify-content: left;
 }
-
+/*Colonna destra in sezione a 3 grande*/
 .right-column1 {
     margin-bottom: 10px;
     flex-direction: column;
     align-items: center;
 }
 
-/* Foto per articoli piccoli */
+/* Foto1 per articoli piccoli nella sezione a tre articoli grande*/
 .small_article0 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 25px;
 }
-
+/* Foto2 per articoli piccoli nella sezione a tre articoli grande*/
 .small_article1 {
     display: flex;
     flex-direction: column;
