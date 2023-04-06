@@ -1,48 +1,58 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* Colonna a sinistra */
 .left-column {
     margin-right: 50px;
     margin-left: 50px;
 }
+
 /* Testo sopra foto grande colonna sinistra */
 #titologranderosso {
     color: #c40801;
     text-align: center;
     font-size: 60px;
 }
+
 /* Foto grande */
-.fotogrande{
+.fotogrande {
     width: 90%;
 }
+
 /* Testo grande sotto foto grande colonna sinistra */
-main div section{
+main div section {
     font-weight: bold;
     font-size: 40px;
     text-align: center;
+    justify-content: center;
 }
-/* Testo piccolo sotto testo grande sotto foto grande colonna sinistra */
-main div section div{
+
+/* Testo piccolo sotto testo grande, sotto foto grande colonna sinistra */
+main div section div {
     margin-top: 2%;
     font-size: 15px;
     text-align: left;
     color: gray;
+    justify-content: left;
 }
+
 /* Foto piccole colonna di destra */
-.fotopiccola{
+.fotopiccola {
     width: 90%;
 }
+
 /* Container articoli piccoli sotto articolo grande */
 .container_orizzontale {
     display: flex;
     margin-top: 15px;
-    padding-bottom: 15px ;
-    padding-top: 15px ;
+    padding-bottom: 15px;
+    padding-top: 15px;
     border-bottom: 1px solid lightgray;
     border-top: 1px solid lightgray;
 }
+
 /* Singoli articoli piccoli sotto articolo grande */
 .article_small {
     padding-right: 5px;
@@ -54,15 +64,19 @@ main div section div{
 .article_small:last-child {
     margin-right: 0px;
 }
+
 .caption {
     font-size: 20px;
     text-align: left;
     margin-top: 10px;
-    font-weight:bold ;
+    font-weight: bold;
+    justify-content: left;
 }
-body{
+
+body {
     margin: 0 auto;
 }
+
 /* Pubblicità sotto articoli piccoli colonna di sinistra */
 .ADVERTISEMENT {
     width: 100%;
@@ -75,50 +89,63 @@ body{
     padding-bottom: 21px;
     border-bottom: 1px solid lightgray;
 }
+
 /* Stile del contenitore 1 */
 .container1 {
     display: flex;
-    justify-content: space-between;
     margin-top: 1%;
+    padding-bottom: 15px;
     border-bottom: 1px solid lightgray;
 }
+
 /* Colonne del container1*/
 .left-column1 {
     margin-right: 50px;
+    padding-right: 50px;
     margin-left: 50px;
+    border-right: 1px solid lightgray;
 }
+
 /*Testo sopra foto grande*/
-.testoupbigarticle{
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #c40800;
-}
-/*Testo sotto foto grande*/
-.testobottombigarticle{
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #575757;
-}
-/*testo sotto foto piccole*/
-.testosmallarticle{
+.testoupbigarticle {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #c40800;
+    justify-content: left;
 }
-.right-column1 {
+
+/*Testo sotto foto grande*/
+.testobottombigarticle {
+    font-size: 20px;
     margin-bottom: 20px;
+    color: #575757;
+    justify-content: left;
+}
+
+/*testo sotto foto piccole*/
+.testosmallarticle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+    justify-content: left;
+}
+
+.right-column1 {
+    margin-bottom: 10px;
     flex-direction: column;
     align-items: center;
 }
+
 /* Foto per articoli piccoli */
-.small_article0{
+.small_article0 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 25px;
 }
-.small_article1{
+
+.small_article1 {
     display: flex;
     flex-direction: column;
     align-items: center;

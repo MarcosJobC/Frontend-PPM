@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,20 +9,25 @@ header {
     color: #fff;
     padding: 20px;
 }
+
 header div ul {
     list-style: none;
     display: flex;
 }
-header div ul li{
+
+header div ul li {
     padding: 3px;
 }
-#lenteingrandimento{
+
+#lenteingrandimento {
     width: 1.5%;
     height: 1.5%;
 }
-#newsletter{
+
+#newsletter {
     width: 2%;
 }
+
 #logo {
     width: 20%;
     display: flex;
@@ -30,12 +35,14 @@ header div ul li{
     text-align: center;
     justify-content: center;
 }
+
 #pagesix {
     width: 11%;
     position: absolute;
     top: 20px;
     right: 350px;
 }
+
 #data {
     background-color: black;
     color: white;
@@ -44,9 +51,10 @@ header div ul li{
     text-align: center;
     justify-content: center;
 }
+
 /* Fine gestione header pagina*/
 /*Dimensioni totali pagina e spazi laterali*/
-#tutto{
+#tutto {
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -64,16 +72,20 @@ header div ul li{
     #logo {
         margin: 0 auto;
     }
+
     #pagesix {
         display: none;
     }
+
     .right-column {
         display: none;
     }
-    main div section{
+
+    main div section {
         font-size: 30px;
     }
-    #titologranderosso{
+
+    #titologranderosso {
         font-size: 45px;
     }
 }

@@ -1,26 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* Colonne a destra */
 .right-column {
     margin-bottom: 10%;
 }
-.right-column section{
+
+.right-column section {
     border: 1px solid lightgray;
     margin-bottom: 10%;
     font-weight: bold;
 }
+
 /* Pubblicità colonna di destra */
-#pubblicita_colonna_destra{
-    margin-left: 25px;
+#pubblicita_colonna_destra {
+    margin-left: 15px;
     height: 581px;
     width: 295px;
     border: 1px solid black;
 }
 
 /* Trending Now */
-span{
+span {
     background-color: white;
     color: black;
     display: flex;
@@ -41,11 +44,13 @@ main div section article {
     font-size: 20px;
     justify-content: center;
 }
-.fotosottotrendingnow{
+
+.fotosottotrendingnow {
     width: 225px;
     height: 10px;
     margin-bottom: 5%;
 }
+
 /*Pubblicità con loghi social*/
 .social-icons {
     margin-top: 30px;
@@ -56,6 +61,7 @@ main div section article {
     align-items: center;
     justify-content: center;
 }
+
 .social-icons p {
     margin-right: 5px;
     font-size: 18px;
@@ -63,10 +69,12 @@ main div section article {
     color: #c40800;
     padding-right: 10px;
 }
+
 .social-icons a {
     margin-right: 5px;
 
 }
+
 .social-icons img {
     width: 30px;
     height: auto;
