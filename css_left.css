@@ -7,6 +7,7 @@
 .left-column {
     margin-right: 50px;
     margin-left: 50px;
+    width: 70%;
 }
 
 /* Testo sopra foto grande colonna sinistra */
@@ -38,9 +39,14 @@ main div section div {
     justify-content: left;
 }
 
-/* Foto piccole colonna di destra */
-.fotopiccola {
-    width: 90%;
+
+/*Foto grande container1*/
+.fotogrande1{
+    width: 100%;
+}
+/*Foto piccola container1*/
+.fotopiccola1 {
+    width: 100%;
 }
 
 /* Container articoli piccoli sotto articolo grande */
@@ -96,6 +102,7 @@ body {
     margin-top: 1%;
     padding-bottom: 15px;
     border-bottom: 1px solid lightgray;
+    width: 100%;
 }
 
 /* Colonne del container1*/

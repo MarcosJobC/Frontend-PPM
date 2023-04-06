@@ -57,6 +57,7 @@ header div ul li {
 #tutto {
     max-width: 1280px;
     margin: 0 auto;
+    display: flex;
 }
 
 /* Stile del contenitore principale */
@@ -64,28 +65,39 @@ header div ul li {
     display: flex;
     justify-content: space-between;
     margin-top: 1%;
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+.pubblicita1{
+    width: 100%;
+
 }
 
-
 /* Mediaquery per rimpicciolimento testo e altro */
-@media screen and (max-width: 1000px) {
-    #logo {
-        margin: 0 auto;
-    }
-
+@media screen and (max-width: 1200px) {
     #pagesix {
         display: none;
     }
-
-    .right-column {
-        display: none;
-    }
-
     main div section {
         font-size: 30px;
     }
-
     #titologranderosso {
         font-size: 45px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .right-column {
+        display: none;
+    }
+    main div section {
+        font-size: 20px;
+    }
+    #titologranderosso {
+        font-size: 35px;
+    }
+    p.testoupbigarticle{
+        font-size: 20px;
     }
 }
