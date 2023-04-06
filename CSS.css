@@ -69,13 +69,13 @@ header div ul li{
     margin-bottom: 10%;
 }
 .right-column section{
-    border: 5px solid gray;
+    border: 1px solid lightgray;
     margin-bottom: 10%;
     font-weight: bold;
 }
 /* Pubblicità colonna di destra */
 #pubblicita_colonna_destra{
-    margin-left: 27px;
+    margin-left: 25px;
     height: 581px;
     width: 295px;
     border: 1px solid black;
@@ -97,9 +97,9 @@ span{
 
 /* Articoli colonna di destra */
 main div section article {
-    padding-inline: 25px;
+    padding-left: 30px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     justify-content: center;
 }
