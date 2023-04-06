@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Testo sopra foto grande colonna sinistra */
+#titologranderosso {
+    color: #c40801;
+    text-align: center;
+    font-size: 60px;
+}
+/* Foto grande */
+.fotogrande{
+    width: 90%;
+}
+/* Testo grande sotto foto grande colonna sinistra */
+main div section{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+/* Testo piccolo sotto testo grande sotto foto grande colonna sinistra */
+main div section div{
+    margin-top: 2%;
+    font-size: 15px;
+    text-align: left;
+    color: gray;
+}
+/* Foto piccole colonna di destra */
+.fotopiccola{
+    width: 90%;
+}
+/* Container articoli piccoli sotto articolo grande */
+.container_orizzontale {
+    display: flex;
+    margin-top: 15px;
+    padding-bottom: 15px ;
+    padding-top: 15px ;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+/* Singoli articoli piccoli sotto articolo grande */
+.article_small {
+    padding-right: 5px;
+    padding-left: 20px;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+.article_small:last-child {
+    margin-right: 0px;
+}
+.caption {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    font-weight:bold ;
+}
+body{
+    margin: 0 auto;
+}

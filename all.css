@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Inizio gestione header pagina*/
+header {
+    background-color: #c40801;
+    color: #fff;
+    padding: 20px;
+}
+header div ul {
+    list-style: none;
+    display: flex;
+}
+header div ul li{
+    padding: 3px;
+}
+#lenteingrandimento{
+    width: 1.5%;
+    height: 1.5%;
+}
+#newsletter{
+    width: 2%;
+}
+#logo {
+    width: 20%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+#pagesix {
+    width: 11%;
+    position: absolute;
+    top: 20px;
+    right: 350px;
+}
+#data {
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+/* Fine gestione header pagina*/
+/*Dimensioni totali pagina e spazi laterali*/
+#tutto{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Stile del contenitore principale */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+/* Colonna a sinistra */
+.left-column {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+/* Colonne a destra */
+.right-column {
+    margin-bottom: 10%;
+}
+/* Mediaquery per rimpicciolimento testo e altro */
+@media screen and (max-width: 900px) {
+    #logo {
+        margin: 0 auto;
+    }
+    #pagesix {
+        display: none;
+    }
+    .right-column {
+        display: none;
+    }
+    main div section{
+        font-size: 20px;
+    }
+    #titologranderosso{
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.right-column section{
+    border: 1px solid lightgray;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+/* Pubblicità colonna di destra */
+#pubblicita_colonna_destra{
+    margin-left: 25px;
+    height: 581px;
+    width: 295px;
+    border: 1px solid black;
+}
+
+/* Trending Now */
+span{
+    background-color: white;
+    color: black;
+    display: flex;
+    text-align: left;
+    padding-left: 5%;
+    font-weight: bold;
+    margin-top: 5%;
+    font-size: 25px;
+    font-style: italic; /* Mette il testo in corsivo */
+}
+
+
+/* Articoli colonna di destra */
+main div section article {
+    padding-left: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 20px;
+    justify-content: center;
+}
+.fotosottotrendingnow{
+    width: 225px;
+    height: 10px;
+    margin-bottom: 5%;
+}
