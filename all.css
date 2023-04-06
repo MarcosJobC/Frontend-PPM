@@ -57,15 +57,8 @@ header div ul li{
     justify-content: space-between;
     margin-top: 1%;
 }
-/* Colonna a sinistra */
-.left-column {
-    margin-right: 50px;
-    margin-left: 50px;
-}
-/* Colonne a destra */
-.right-column {
-    margin-bottom: 10%;
-}
+
+
 /* Mediaquery per rimpicciolimento testo e altro */
 @media screen and (max-width: 900px) {
     #logo {

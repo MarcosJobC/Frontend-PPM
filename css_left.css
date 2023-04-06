@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+/* Colonna a sinistra */
+.left-column {
+    margin-right: 50px;
+    margin-left: 50px;
+}
 /* Testo sopra foto grande colonna sinistra */
 #titologranderosso {
     color: #c40801;
