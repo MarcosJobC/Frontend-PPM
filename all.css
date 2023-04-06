@@ -5,9 +5,9 @@
 
 /* Inizio gestione header pagina*/
 header {
+    width: 100%;
     background-color: #c40801;
     color: #fff;
-    padding: 20px;
 }
 
 header div ul {
@@ -21,11 +21,16 @@ header div ul li {
 /*Non ancora inserita*/
 #lenteingrandimento {
     width: 1.5%;
-    height: 1.5%;
+    position: absolute;
+    top: 30px;
+    left: 400px;
 }
 /*Non ancora inserita*/
 #newsletter {
     width: 2%;
+    position: absolute;
+    top: 30px;
+    left: 450px;
 }
 /*Logo new york post*/
 #logo {
@@ -34,6 +39,7 @@ header div ul li {
     margin: 0 auto;
     text-align: center;
     justify-content: center;
+    padding: 20px;
 }
 /*Logo pagesix*/
 #pagesix {
@@ -76,9 +82,180 @@ body{
     width: 100%;
 }
 
+#linearossafooter{
+    width: 100%;
+}
+
+
+/* Footer */
+footer {
+    font-size: 14px;
+    padding-inline: 30px;
+}
+.footer-precontainer {
+    margin-inline: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.social_footer{
+    width: 4%;
+    margin-left: 1%;
+}
+
+
+/* Footer Container */
+.footer-container {
+    max-width: 1200px;
+    margin-inline: 20%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* Footer Column */
+.footer-column {
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 20px;
+}
+
+/* Footer Logo */
+.footer-logo {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    max-width: 100%;
+}
+
+/* Footer Heading */
+.footer-heading {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Footer Links */
+.footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: dimgray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Social */
+.footer-social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-social a:hover {
+    transform: scale(1.2);
+}
+
+/* Footer Button */
+.footer-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #333;
+    background-color: cadetblue;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/* Footer Address */
+.footer-address {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Footer Disclaimer */
+.footer-disclaimer {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-disclaimer p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.footer-disclaimer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-disclaimer a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Terms */
+.footer-terms {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-terms li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-terms a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-terms a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
 /* Mediaquery per rimpicciolimento testo e altro */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
     #pagesix {
+        display: none;
+    }
+    #newsletter {
+        display: none;
+    }
+    #lenteingrandimento {
         display: none;
     }
     main div section {

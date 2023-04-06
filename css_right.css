@@ -5,7 +5,6 @@
 
 /* Colonne a destra */
 .right-column {
-    margin-bottom: 10%;
     width: 30%;
 }
 /* Ogni sezione della colonna di destra delimitata dal bordo */
@@ -62,11 +61,12 @@ main div section article {
     margin-top: 30px;
     display: flex;
     padding: 10px;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     align-items: center;
     justify-content: center;
     width: 95%;
+    margin-bottom: 30px;
 }
 /*Testo nella sezione loghi social*/
 .social-icons p {
