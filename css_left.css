@@ -61,7 +61,7 @@ main div section div {
 
 /* Sezione singoli articoli piccoli sotto articolo grande */
 .article_small {
-    padding-right: 5px;
+    padding-right: 20px;
     padding-left: 20px;
     border-right: 1px solid lightgray;
     border-left: 1px solid lightgray;
@@ -74,7 +74,7 @@ main div section div {
     margin-right: 0px;
 }
 /*Scritta sotto foto in sezione a 3 orizzontale*/
-.caption {
+.caption_orizzontale {
     font-size: 20px;
     text-align: left;
     margin-top: 10px;
@@ -110,21 +110,26 @@ body {
 
 /* Colonne del container1*/
 .left-column1 {
-    margin-right: 50px;
-    padding-right: 50px;
+    margin-right: 25px;
+    padding-right: 25px;
     margin-left: 50px;
     border-right: 1px solid lightgray;
 }
 
 /*Testo sopra foto grande*/
-.testoupbigarticle {
-    font-size: 30px;
+.testoupbigarticleRED {
+    font-size: 35px;
     font-weight: bold;
-    margin-bottom: 20px;
     color: #c40800;
     justify-content: left;
 }
-
+.testoupbigarticleBLACK {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: BLACK;
+    justify-content: left;
+}
 /*Testo sotto foto grande*/
 .testobottombigarticle {
     font-size: 20px;

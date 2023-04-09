@@ -21,11 +21,11 @@
 /* Section pubblicità colonna di destra */
 #pubblicita_colonna_destra {
     width: 100%;
-    border: 1px solid black;
 }
 /* Immagine pubblicità colonna di destra */
 #pubblicitadestra{
     width: 100%;
+    border: 1px solid black;
 }
 
 /* Scriita Trending Now e post Wanted*/
@@ -60,7 +60,8 @@ main div section article {
 .social-icons {
     margin-top: 30px;
     display: flex;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     align-items: center;
@@ -70,8 +71,8 @@ main div section article {
 }
 /*Testo nella sezione loghi social*/
 .social-icons p {
-    margin-right: 5px;
-    font-size: 18px;
+    margin-inline: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: #c40800;
     padding-right: 10px;
