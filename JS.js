@@ -2,24 +2,22 @@
 //Menu a tendina
 let button = document.getElementById("menutendina");
 let menutendinaopen = document.getElementById("menutendinaopen");
-let pressed = false;
+let pressed = menutendinaopen.style.display === "none";
 
-button.addEventListener("click",aperturamenu);
+button.addEventListener("click", aperturamenu);
 
-function aperturamenu(){
-    if (!pressed){
-        pressed=true;
-        menutendinaopen.style.display="list-item";
-        // Disabilita lo scorrimento della pagina
+function aperturamenu() {
+    if (!pressed) {
+        pressed = true;
+        menutendinaopen.style.display = "none";
         document.body.style.overflow = "hidden";
-    }
-    else{
-        pressed=false;
-        menutendinaopen.style.display="none";
-        // Abilita lo scorrimento della pagina
+    } else {
+        pressed = false;
+        menutendinaopen.style.display = "list-item";
         document.body.style.overflow = "auto";
     }
 }
+
 
 
 
