@@ -378,9 +378,13 @@ footer {
         font-size: 45px;
     }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 980px) {
     .right-column {
         display: none;
+    }
+    .left-column {
+        margin: 0 auto;
+        width: 90%;
     }
     main div section {
         font-size: 20px;
