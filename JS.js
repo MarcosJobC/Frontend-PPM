@@ -8,7 +8,6 @@ let menutendinaImg = document.getElementById("menutendina");
 
 button.addEventListener("click", aperturamenu);
 button1.addEventListener("click", aperturamenu);
-
 function aperturamenu() {
     if (!pressed) {
         pressed = true;
