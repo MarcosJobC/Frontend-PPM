@@ -25,13 +25,16 @@
 }
 
 /*Sezione con data odierna*/
-#data {
+#datahead {
     background-color: black;
     color: white;
     display: flex;
     margin: 0 auto;
     text-align: center;
     justify-content: center;
+}
+#data{
+
 }
 #lenteingrandimento {
     width: 1.5%;
@@ -264,7 +267,6 @@ footer {
     top: 100px;
     left:250px;
     background-color: white;
-    display:list-item;
     border: 1px solid black;
 }
 .singolasection{
