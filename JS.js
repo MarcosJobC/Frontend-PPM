@@ -1,5 +1,5 @@
 
-//Menu a tendina
+//MENU A TENDINA
 let button = document.getElementById("menutendina");
 let menutendinaopen = document.getElementById("menutendinaopen");
 let pressed = menutendinaopen.style.display === "none";
@@ -10,22 +10,16 @@ function aperturamenu() {
     if (!pressed) {
         pressed = true;
         menutendinaopen.style.display = "none";
-        document.body.style.overflow = "hidden";
+        document.body.style.overflow = "auto";
     } else {
         pressed = false;
         menutendinaopen.style.display = "list-item";
-        document.body.style.overflow = "auto";
+        document.body.style.overflow = "hidden";
     }
 }
 
 
-
-
-
-
-
-
-//Header
+//HEADER
 var lastScroll = 0;
 var header = document.getElementById("header");
 

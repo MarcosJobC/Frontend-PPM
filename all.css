@@ -265,6 +265,7 @@ footer {
     left:250px;
     background-color: white;
     display:list-item;
+    border: 1px solid black;
 }
 .singolasection{
     margin: 20px;
