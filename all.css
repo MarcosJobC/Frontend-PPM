@@ -334,7 +334,6 @@ footer {
     font-weight: bolder;
     border-bottom: 30px solid lightgray
 }
-/**/
 
 
 
@@ -351,6 +350,17 @@ footer {
 
 
 /* Mediaquery per rimpicciolimento testo e altro */
+@media screen and (max-width: 1420px) {
+    #menutendina{
+        display: none;
+    }
+    #menutendina1{
+        display: block;
+    }
+    #menutendinaopen{
+        left: 10px;
+    }
+}
 @media screen and (max-width: 1250px) {
     #pagesix {
         display: none;
@@ -368,7 +378,7 @@ footer {
         font-size: 45px;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .right-column {
         display: none;
     }
@@ -389,17 +399,5 @@ footer {
     }
     #menutendinaopen{
         top: 70px;
-    }
-}
-
-@media screen and (max-width: 1420px) {
-    #menutendina{
-        display: none;
-    }
-    #menutendina1{
-        display: block;
-    }
-    #menutendinaopen{
-        left: 10px;
     }
 }
