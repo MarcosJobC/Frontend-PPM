@@ -1,11 +1,13 @@
 
 //MENU A TENDINA
 let button = document.getElementById("menutendina");
+let button1 = document.getElementById("menutendina1");
 let menutendinaopen = document.getElementById("menutendinaopen");
 let pressed = menutendinaopen.style.display === "none";
 let menutendinaImg = document.getElementById("menutendina");
 
 button.addEventListener("click", aperturamenu);
+button1.addEventListener("click", aperturamenu);
 
 function aperturamenu() {
     if (!pressed) {
