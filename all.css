@@ -1,12 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 /* Inizio gestione header pagina*/
 #header{
     position: fixed;
     width: 100%;
+    height: 100px;
     background-color: #c40801;
     color: #fff;
     top: 0;
@@ -53,7 +55,8 @@
 }
 /*Logo new york post*/
 #logo {
-    width: 20%;
+    width: 350px;
+    height: 60px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -267,13 +270,13 @@ footer {
 
 #menutendina {
     position: absolute;
-    top: 22px;
+    top: 28px;
     left: calc(50% - 700px);
     cursor: pointer;
 }
 #menutendina1 {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 10px;
     cursor: pointer;
     display: none;
@@ -287,6 +290,8 @@ footer {
     width: 300px;
     height: 100%;
     overflow-y: scroll;
+    display:none;
+    max-height: 800px;
 }
 .vocimenu{
     display: block;
@@ -326,13 +331,13 @@ footer {
     display: block;
     margin: 10px 0;
     padding: 5px;
-    color: black;
+    margin-bottom: 50px;
+    color: #575757;
     font-size: 20px;
     line-height: 1.2;
     padding-left: 20px;
     text-decoration: none;
     font-weight: bolder;
-    border-bottom: 30px solid lightgray
 }
 
 
@@ -402,6 +407,36 @@ footer {
         display: none;
     }
     #menutendinaopen{
-        top: 70px;
+        top: 120px;
+    }
+    .testoupbigarticleBLACK {
+        font-size: 25px;
+    }
+    .testoupbigarticleRED {
+        font-size: 25px;
+    }
+    .testobottombigarticle{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #menutendinaopen {
+        position: fixed;
+        top: 100px;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        width: 100%;
+        height: 90%;
+        overflow-y: scroll;
+        display: none;
+        z-index: 9999;
+    }
+
+    #menutendinaopen.show {
+        display: block;
+    }
+    .caption_orizzontale{
+        font-size: 10px;
     }
 }
