@@ -1,3 +1,5 @@
 # Frontend-PPM
 
-GITHUB Frontend PPM
+Progetto Frontend PPM
+
+Realizzato da: Seraglini Marco

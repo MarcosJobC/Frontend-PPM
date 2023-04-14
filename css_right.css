@@ -16,7 +16,7 @@
 }
 /* Foto piccole colonna di destra */
 .fotopiccoladx {
-    width: 90%;
+    width: 100%;
 }
 /* Section pubblicità colonna di destra */
 #pubblicita_colonna_destra {
@@ -28,6 +28,13 @@
     border: 1px solid black;
 }
 
+.Sezionididestra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+}
 /* Scriita Trending Now e post Wanted*/
 span {
     background-color: white;
@@ -40,7 +47,6 @@ span {
     font-size: 25px;
     font-style: italic;
 }
-
 
 /* Testo articoli piccoli colonna di destra */
 main div section article {
