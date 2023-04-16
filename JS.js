@@ -10,15 +10,13 @@ button.addEventListener("click", aperturamenu);
 button1.addEventListener("click", aperturamenu);
 function aperturamenu() {
     if (!pressed) {
-        pressed = true;
         menutendinaopen.style.display = "none";
         document.body.style.overflow = "auto";
-        menutendinaImg.setAttribute("src", "photos/SECTION_OPEN.PNG"); // Aggiorna l'immagine quando il menu a tendina è aperto
+        pressed = true;
     } else {
-        pressed = false;
         menutendinaopen.style.display = "list-item";
         document.body.style.overflow = "hidden";
-        menutendinaImg.setAttribute("src", "photos/SECTION.PNG"); // Ripristina l'immagine quando il menu a tendina è chiuso
+        pressed = false;
     }
 }
 
