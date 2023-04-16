@@ -282,7 +282,7 @@ footer {
     display: none;
 }
 #menutendinaopen{
-    position: absolute;
+    position: fixed;
     top: 120px;
     left: calc(50% - 700px);
     background-color: white;
