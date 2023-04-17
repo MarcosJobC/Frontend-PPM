@@ -457,5 +457,7 @@ footer {
     #menutendina1 {
         display: block;
     }
-
+    #datahead{
+        display: none;
+    }
 }
