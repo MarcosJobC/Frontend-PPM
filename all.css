@@ -388,7 +388,10 @@ footer {
         font-size: 15px;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
+    #titologranderosso{
+        padding-top:0px;
+    }
     #menutendina{
         display: none;
     }
