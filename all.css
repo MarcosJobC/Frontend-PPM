@@ -29,7 +29,7 @@
     transform: translateY(0);
 }
 
-#logo-container {
+#header-container {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -66,7 +66,8 @@
 }
 
 #logo {
-    width: 300px;
+    width: 350px;
+    height: 60px;
     margin-left: 20px;
 }
 
@@ -453,7 +454,6 @@ footer {
     #menutendina {
         display: none;
     }
-
     #menutendina1 {
         display: block;
     }
