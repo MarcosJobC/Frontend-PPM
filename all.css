@@ -407,6 +407,7 @@ footer {
 
     #menutendinaopen {
         top: 120px;
+        display: none;
     }
 
     .testoupbigarticleBLACK {
