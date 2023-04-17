@@ -1,24 +1,41 @@
 
 //MENU A TENDINA
 let button = document.getElementById("menutendina");
-let button1 = document.getElementById("menutendina1");
 let menutendinaopen = document.getElementById("menutendinaopen");
 let pressed = menutendinaopen.style.display === "none";
 let menutendinaImg = document.getElementById("menutendina");
-
 button.addEventListener("click", aperturamenu);
-button1.addEventListener("click", aperturamenu);
+
 function aperturamenu() {
     if (!pressed) {
         menutendinaopen.style.display = "none";
         document.body.style.overflow = "auto";
+        menutendinaImg.src = "photos/SECTION.PNG";
         pressed = true;
     } else {
         menutendinaopen.style.display = "list-item";
         document.body.style.overflow = "hidden";
+        menutendinaImg.src = "photos/SECTION_OPEN.PNG";
         pressed = false;
     }
 }
+let button1 = document.getElementById("menutendina1");
+let menutendina1Img = document.getElementById("menutendina1");
+button1.addEventListener("click", aperturamenu1);
+function aperturamenu1() {
+    if (!pressed) {
+        menutendinaopen.style.display = "none";
+        document.body.style.overflow = "auto";
+        menutendina1Img.src = "photos/SECTION_MINI.PNG";
+        pressed = true;
+    } else {
+        menutendinaopen.style.display = "list-item";
+        document.body.style.overflow = "hidden";
+        menutendina1Img.src = "photos/SECTION_MINI_OPEN.PNG";
+        pressed = false;
+    }
+}
+
 
 
 
