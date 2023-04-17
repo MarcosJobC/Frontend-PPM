@@ -23,25 +23,35 @@ function aperturamenu() {
 
 
 //HEADER
-var lastScroll = 0;
-var header = document.getElementById("header");
-window.addEventListener("scroll", function() {
-    var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-    if (currentScroll > lastScroll) {
-        // scorrimento verso il basso
-        header.classList.remove("visible");
-        header.classList.add("hidden");
-        datahead.classList.remove("visible");
-        datahead.classList.add("hidden");
-    } else {
-        // scorrimento verso l'alto
-        header.classList.remove("hidden");
-        header.classList.add("visible");
-        datahead.classList.remove("hidden");
-        datahead.classList.add("visible");
-    }
-    lastScroll = currentScroll;
+const header = document.querySelector('header');
+const headerHeight = header.offsetHeight;
+let isHeaderVisible = true;
+
+const dataheaad = document.querySelector('datahead');
+let isDataVisible = true;
+
+let prevScrollY = window.pageYOffset;
+
+window.addEventListener('scroll', () => {
+  const currentScrollY = window.pageYOffset;
+
+  if (currentScrollY > prevScrollY && currentScrollY > headerHeight && isHeaderVisible) {
+    // scroll verso il basso
+    datahead.classList.add('hidden');
+    isDataVisible = false;
+    header.classList.add('hidden');
+    isHeaderVisible = false;
+  } else if (currentScrollY < prevScrollY && !isHeaderVisible) {
+    // scroll verso l'alto
+    datahead.classList.add('hidden');
+    isDataVisible = true;
+    header.classList.remove('hidden');
+    isHeaderVisible = true;
+  }
+
+  prevScrollY = currentScrollY;
 });
+
 
 
 
