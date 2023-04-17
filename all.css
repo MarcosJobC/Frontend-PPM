@@ -426,7 +426,6 @@ footer {
         padding-top: 0px;
     }
 
-
     #menutendinaopen {
         position: fixed;
         top: 100px;
@@ -449,7 +448,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 900px) {
 
     #menutendina {
         display: none;
