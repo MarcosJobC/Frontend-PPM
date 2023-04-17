@@ -31,13 +31,18 @@ window.addEventListener("scroll", function() {
         // scorrimento verso il basso
         header.classList.remove("visible");
         header.classList.add("hidden");
+        datahead.classList.remove("visible");
+        datahead.classList.add("hidden");
     } else {
         // scorrimento verso l'alto
         header.classList.remove("hidden");
         header.classList.add("visible");
+        datahead.classList.remove("hidden");
+        datahead.classList.add("visible");
     }
     lastScroll = currentScroll;
 });
+
 
 
 //DATA
