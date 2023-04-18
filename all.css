@@ -75,6 +75,7 @@
     width: 30px;
     height: 30px;
     margin-inline: 20px;
+    cursor: pointer;
 }
 
 #newsletter {
@@ -169,6 +170,8 @@
     text-decoration: none;
     font-weight: bolder;
 }
+
+
 
 /* Fine gestione header pagina*/
 

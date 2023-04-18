@@ -80,3 +80,4 @@ var dataFormattata = oggi.toLocaleDateString('en-US', opzioni).toUpperCase();
 elementoData.innerHTML = "<strong>" + dataFormattata + "</strong>";
 
 
+
