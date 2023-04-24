@@ -127,6 +127,3 @@ lenteingrandimento.addEventListener('click', () => {
         searchBar.style.display = 'block';
     }
 });
-
-
-
