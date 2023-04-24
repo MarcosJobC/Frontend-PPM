@@ -365,7 +365,6 @@ footer {
 }
 
 
-
 .cookie-banner {
     position: fixed;
     bottom: 0;
@@ -384,19 +383,35 @@ footer {
 }
 
 .cookie-banner a {
-    color: #ca3632;
+    color: #cb3236;
     text-decoration: none;
 }
 
+.cookie-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
 #accept-cookies {
-    background-color: #cb3632;
+    background-color: #cb3236;
     color: #fff;
     font-size: 14px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#decline-cookies {
+    background-color: transparent;
+    color: #666;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
@@ -404,6 +419,7 @@ footer {
         font-size: 12px;
     }
 }
+
 
 
 
