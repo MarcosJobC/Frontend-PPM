@@ -81,3 +81,15 @@ elementoData.innerHTML = "<strong>" + dataFormattata + "</strong>";
 
 
 
+function acceptCookies() {
+    document.cookie = "acceptedCookies=true; expires=Thu, 01 Jan 2099 00:00:00 UTC; path=/";
+    document.querySelector('.cookie-banner').style.display = 'none';
+}
+
+function checkCookies() {
+    if (document.cookie.indexOf("acceptedCookies") < 0) {
+        document.querySelector('.cookie-banner').style.display = 'block';
+    }
+}
+
+checkCookies();
