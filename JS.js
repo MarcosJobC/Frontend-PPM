@@ -80,7 +80,7 @@ var dataFormattata = oggi.toLocaleDateString('en-US', opzioni).toUpperCase();
 elementoData.innerHTML = "<strong>" + dataFormattata + "</strong>";
 
 
-
+//COOKIE
 function acceptCookies() {
     document.cookie = "acceptedCookies=true; expires=Thu, 01 Jan 2099 00:00:00 UTC; path=/";
     document.querySelector('.cookie-banner').style.display = 'none';
