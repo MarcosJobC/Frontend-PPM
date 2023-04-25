@@ -108,22 +108,23 @@ function getCookie(name) {
 checkCookies();
 
 //Barra di ricerca
-// Seleziona l'elemento HTML che rappresenta la barra di ricerca
 const searchBar = document.querySelector('#search-bar');
-
-// Nascondi la barra di ricerca all'avvio della pagina
 searchBar.style.display = 'none';
-
-// Seleziona l'immagine con id "lenteingrandimento"
 const lenteingrandimento = document.querySelector('#lenteingrandimento');
 
-// Aggiungi l'evento click all'immagine con id "lenteingrandimento"
 lenteingrandimento.addEventListener('click', () => {
-    // Se la barra di ricerca è già aperta, chiudila
     if (searchBar.style.display === 'block') {
         searchBar.style.display = 'none';
     } else {
-        // Altrimenti, mostra la barra di ricerca
         searchBar.style.display = 'block';
     }
 });
+
+
+const overlay = document.querySelector('.overlay');
+overlay.addEventListener('transitionend', () => {
+    overlay.remove();
+});
+setTimeout(() => {
+    overlay.style.opacity = 0;
+}, 1250);
