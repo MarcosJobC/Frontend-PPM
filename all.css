@@ -427,7 +427,7 @@ footer {
     border: 1px solid #E0E0E0;
     border-radius: 25px;
     padding: 10px 15px;
-    width: 49%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -435,7 +435,7 @@ footer {
     border: none;
     background-color: transparent;
     font-size: 16px;
-    width: 49%;
+    width: 69%;
 }
 
 #search-bar input[type="text"]::placeholder {
@@ -443,7 +443,7 @@ footer {
 }
 
 #search-bar button {
-    width: 49%;
+    width: 30%;
     border: none;
     background-color: #cb3236;
     cursor: pointer;
@@ -458,6 +458,9 @@ footer {
 
 #search-bar button:hover {
     opacity: 0.8;
+}
+#search-bar input[type="text"]:focus {
+    outline: none;
 }
 
 
