@@ -85,12 +85,10 @@ function acceptCookies() {
     document.cookie = "acceptedCookies=true; expires=Thu, 01 Jan 2099 00:00:00 UTC; path=/";
     document.querySelector('.cookie-banner').style.display = 'none';
 }
-
 function declineCookies() {
     document.cookie = "acceptedCookies=false; expires=Thu, 01 Jan 2099 00:00:00 UTC; path=/";
     document.querySelector('.cookie-banner').style.display = 'none';
 }
-
 function checkCookies() {
     if (document.cookie.indexOf("acceptedCookies") < 0) {
         document.querySelector('.cookie-banner').style.display = 'block';
@@ -98,14 +96,14 @@ function checkCookies() {
         document.querySelector('.cookie-banner').style.display = 'none';
     }
 }
-
 function getCookie(name) {
     const value = `; ${document.cookie}`;
     const parts = value.split(`; ${name}=`);
     if (parts.length === 2) return parts.pop().split(';').shift();
 }
-
 checkCookies();
+
+
 
 //Barra di ricerca
 const searchBar = document.querySelector('#search-bar');
@@ -120,7 +118,7 @@ lenteingrandimento.addEventListener('click', () => {
     }
 });
 
-
+//Schermata disclaimer
 const overlay = document.querySelector('.overlay');
 overlay.addEventListener('transitionend', () => {
     overlay.remove();
